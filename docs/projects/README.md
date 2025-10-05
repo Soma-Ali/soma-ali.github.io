@@ -1,3 +1,7 @@
+<CustomNav />
+
+<div style="padding-top: 100px; min-height: 100vh;">
+
 # Featured Projects
 
 Here are some of my recent projects that showcase my skills and creativity.
@@ -26,19 +30,4 @@ Here are some of my recent projects that showcase my skills and creativity.
   behanceLink="https://www.behance.net/gallery/218499393/Easy-Cook"
 />
 
-## My Design Process
-
-1. **Research** - Understanding user needs and business goals
-2. **Ideation** - Brainstorming and sketching solutions
-3. **Design** - Creating wireframes and high-fidelity mockups
-4. **Testing** - Gathering feedback and iterating
-5. **Deliver** - Handoff and implementation support
-
----
-
-<div style="text-align: center; margin-top: 3rem;">
-  <p style="color: #6a737d; margin-bottom: 1.5rem;">Want to see more of my work?</p>
-  <a href="https://www.behance.net/somaali14" target="_blank" style="display: inline-block; padding: 0.8rem 2rem; background: #8b5cf6; color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">
-    Visit My Behance
-  </a>
 </div>

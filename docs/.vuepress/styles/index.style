@@ -1,0 +1,40 @@
+// Import Inter font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap')
+
+// CSS Variables
+:root
+  --primary #8b5cf6
+  --primary-dark #7c3aed
+  --background #0a0a0a
+  --foreground #fafafa
+  --muted #262626
+  --muted-foreground #a3a3a3
+  --card #171717
+  --card-foreground #fafafa
+  --border #404040
+  --accent #8b5cf6
+  --accent-foreground #fafafa
+
+// Override VuePress default styles
+body
+  font-family 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important
+  background-color var(--background) !important
+  color var(--foreground) !important
+  line-height 1.6
+
+.theme-default-content
+  max-width 1200px !important
+  padding 0 1.5rem !important
+
+// Hide default VuePress header
+.navbar
+  display none !important
+
+// Selection styles
+::selection
+  background var(--accent)
+  color var(--accent-foreground)
+
+// Smooth scrolling
+html
+  scroll-behavior smooth
